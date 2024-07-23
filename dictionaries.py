@@ -12,4 +12,6 @@ my_dict = {'name': 'John', 'age': 26, 'city': 'New York'}
 #if 'age' in my_dict:
 #   print('Age is present in the dictionary')
 #else:
-#    print('not present')    
+#    print('not present')  
+for key, value in my_dict.items():
+    print(key, value)  
