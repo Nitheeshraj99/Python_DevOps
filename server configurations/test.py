@@ -11,4 +11,4 @@ def update_server_config(file_path, key, value):
 #server_config_file = 'server.config'
 #key_to_update = 'MAX_CONNECTIONS'
 #new_value = '600' 
-update_server_config("server.config", "max_connections", "1000")
+update_server_config("server.config", "PORT", "8080")
